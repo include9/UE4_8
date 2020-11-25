@@ -17,10 +17,10 @@
 ##### 注：切换枪械子弹类型按键shift，下蹲按键c，
 <br/>
 
-##### 打包文件网盘链接：https://pan.baidu.com/s/1wu_1s9VblkAPWnXoNgkezg 
+##### 打包文件网盘链接：https://pan.baidu.com/s/1cdAuFdaMfEsXkEaJI2Htyg
 ##### 提取码：0000
 
 <br/>
 
-#####  DEMO录屏文件网盘链接：https://pan.baidu.com/s/1hmZNe_UxsmRHWpa0YWfxBg 
+#####  DEMO录屏文件网盘链接：https://pan.baidu.com/s/1rEpS58aKj9hu9W-yFYyQqw 
 #####  提取码：0000
