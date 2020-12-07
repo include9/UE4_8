@@ -13,15 +13,15 @@
 <br/>
 
 ### 其他：
-#### 1、实现了局域网多人游戏大厅及及大厅聊天功能
-#### 2、更改角色动画蓝图用于网络同步
+#### 1、更新了局域网多人游戏大厅及及大厅聊天功能
+#### 2、更新角色动画蓝图
 
 <br/>
 
-##### 打包文件网盘链接：https://pan.baidu.com/s/1cdAuFdaMfEsXkEaJI2Htyg
+##### 打包文件网盘链接：https://pan.baidu.com/s/1rWV_iPZFP9PWSeLC9AZbhw
 ##### 提取码：0000
 
 <br/>
 
-#####  DEMO录屏文件网盘链接：https://pan.baidu.com/s/1rEpS58aKj9hu9W-yFYyQqw 
+#####  DEMO录屏文件网盘链接：https://pan.baidu.com/s/1tUERkSAt_rxYlo3jEnqbJQ 
 #####  提取码：0000
