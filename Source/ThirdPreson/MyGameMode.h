@@ -14,6 +14,7 @@ class THIRDPRESON_API AMyGameMode : public AGameMode
 {
 	GENERATED_BODY()
 	
+protected:
 	URPOPERTY(EditAnywhere,BlueprintReadWrite)
 		Tarray<FMyStruct> FPlayerMessages;
 	URPOPERTY(EditAnywhere,BlueprintReadWrite)
@@ -22,13 +23,18 @@ class THIRDPRESON_API AMyGameMode : public AGameMode
 public:
 	AMyGameMode();
 	
-	//void PostLogin(APlayerController newPlayer);
+	//UFUNCTION(BlueprintImplementableEvent) 
+	//void OnPostLogin(APlayerController newPlayer);
 	
-	void SetInfoByIndex(int32 index,FMyStruct PlayerInfo);
+	UFUNCTION(Server)
+	void SetInfoByIndex(int32 index,FMyStruct& PlayerInfo);
 	
+	UFUNCTION(Server)
 	void DistributePlayerInfo(); 
 	
+	UFUNCTION(Server)
 	void DestroyRoom();
 	
-	//void PawnPlayer(AMyPC PC,int32 index);
+	UFUNCTION(BlueprintImplementableEvent)
+	void PawnPlayer(AMyPC& PC,int32 index);
 };

@@ -1,7 +1,7 @@
 #include "CoreMinimal.h"
 #include "FMyStruct.generated.h"
 
-USTRUCT(BlueprintType)
+USTRUCT()
 strcut FMyStruct 
 {
 	GENERATED_BODY()

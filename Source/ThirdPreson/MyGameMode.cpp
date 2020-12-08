@@ -3,7 +3,11 @@
 
 #include "MyGameMode.h"
 
-void AMyGameMode::SetInfoByIndex(int32 index,FMyStruct PlayerInfo)
+AMyGameMode::AMyGameMode()
+{
+	
+}
+void AMyGameMode::SetInfoByIndex(int32 index,FMyStruct& PlayerInfo)
 {
 	FPlayerMessages.Insert(PlayerInfo,index);
 	DistributePlayerInfo();
